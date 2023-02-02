@@ -1,0 +1,55 @@
+.faq-container {
+  width: 1168px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-container h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.faq-container h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.Accordion {
+  width: 668px;
+}
+
+@media screen and (max-device-width: 480px) {
+  .faq-container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 16px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .Accordion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faq-container h2 {
+    text-align: center;
+  }
+
+  .Accordion {
+    width: 100%;
+  }
+}

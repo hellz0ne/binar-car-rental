@@ -1,0 +1,43 @@
+.bannercar-wrapper {
+  width: 100%;
+  background: #f1f3ff;
+  padding: 15px auto;
+}
+
+.bannercar-container {
+  width: 1168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.bannercar-wrapper img {
+  width: 704px;
+  height: 407px;
+  margin-top: 97px;
+}
+
+.bannercar-container h1 {
+  width: 568px;
+  height: 108px;
+  margin-left: 136px;
+  margin-top: 177px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.bannercar-container h2 {
+  width: 468px;
+  height: 60px;
+  margin-left: 136px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}

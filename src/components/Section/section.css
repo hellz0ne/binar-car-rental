@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.section-container {
+  width: 1168px;
+  height: 326px;
+  background: #0d28a6;
+  border-radius: 13px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-container h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+
+  text-align: center;
+
+  /* Neutral/01 */
+
+  color: #ffffff;
+}
+
+.section-container h2 {
+  width: 468px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+
+  /* Neutral/01 */
+
+  color: #ffffff;
+}
+
+.section-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 140px;
+  height: 36px;
+  background: #5cb85f;
+  border-radius: 2px;
+  border-color: white;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (max-device-width: 480px) {
+  .section-container {
+    width: 100%;
+    height: 420px;
+    border-radius: 13px;
+  }
+
+  .section-container h1 {
+    width: 212px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Neutral/01 */
+
+    color: #ffffff;
+  }
+
+  .section-container h2 {
+    width: 212px;
+    height: 100px;
+
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    /* Neutral/01 */
+
+    color: #ffffff;
+  }
+}

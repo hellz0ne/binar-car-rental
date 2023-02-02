@@ -1,0 +1,176 @@
+.tool-container {
+  width: 1168px;
+  height: 106px;
+  display: flex;
+  margin: -50px auto;
+  justify-content: space-around;
+  background: #ffffff;
+  /* Shadow/High */
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid white;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+
+.search-tool p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Neutral/04 */
+
+  color: #3c3c3c;
+  margin-bottom: 4px;
+}
+
+.search-tool input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 12px;
+  gap: 8px;
+
+  width: 208px;
+  height: 36px;
+
+  /* Neutral/10 */
+
+  background: #ffffff;
+  /* Neutral/40 */
+
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.capacity-tool p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Neutral/04 */
+
+  color: #3c3c3c;
+  margin-bottom: 4px;
+}
+
+.capacity-tool select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 12px;
+  gap: 8px;
+
+  width: 208px;
+  height: 36px;
+
+  /* Neutral/10 */
+
+  background: #ffffff;
+  /* Neutral/40 */
+
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.price-tool p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Neutral/04 */
+
+  color: #3c3c3c;
+  margin-bottom: 4px;
+}
+
+.price-tool select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 12px;
+  gap: 8px;
+
+  width: 208px;
+  height: 36px;
+
+  /* Neutral/10 */
+
+  background: #ffffff;
+  /* Neutral/40 */
+
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.status-tool p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  /* Neutral/04 */
+
+  color: #3c3c3c;
+  margin-bottom: 4px;
+}
+
+.status-tool select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 12px;
+  gap: 8px;
+
+  width: 208px;
+  height: 36px;
+
+  /* Neutral/10 */
+
+  background: #ffffff;
+  /* Neutral/40 */
+
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.cari-button {
+  margin-top: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+
+  width: 92px;
+  height: 36px;
+
+  /* Primary/LimeGreen/04 */
+
+  background: #5cb85f;
+  border-radius: 2px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #ffffff;
+}

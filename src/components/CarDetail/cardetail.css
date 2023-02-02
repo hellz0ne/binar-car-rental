@@ -1,0 +1,206 @@
+.car-detail-container {
+  width: 1168px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TaC-container {
+  width: 605px;
+  height: 618px;
+  left: 199px;
+  top: 368px;
+  padding: 25px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.TaC-container h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #000000;
+}
+
+.include {
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+.exclude {
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+.refund {
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+.include h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #000000;
+}
+
+.exclude h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #000000;
+}
+
+.refund h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #000000;
+}
+
+.include ul {
+  margin-left: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 175%;
+  /* or 24px */
+
+  /* Neutral/03 */
+
+  color: #8a8a8a;
+}
+
+.exclude ul {
+  margin-left: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 175%;
+  /* or 24px */
+
+  /* Neutral/03 */
+
+  color: #8a8a8a;
+}
+
+.refund ul {
+  margin-left: 20px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 175%;
+  /* or 24px */
+
+  /* Neutral/03 */
+
+  color: #8a8a8a;
+}
+
+.detail-container {
+  width: 405px;
+  height: 435px;
+  left: 836px;
+  top: 368px;
+  padding: 25px;
+  background: #ffffff;
+
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.detail-image-container {
+  width: 405px;
+  height: 216px;
+  padding: 28px 68px;
+}
+
+.detail-image-container img {
+  width: 270px;
+}
+
+.detail-description-container h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #000000;
+}
+
+.detail-category {
+  display: flex;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.detail-category img {
+  width: 12px;
+  height: 12px;
+}
+
+.detail-category p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height, or 140% */
+
+  /* Neutral/03 */
+
+  color: #8a8a8a;
+}
+
+.detail-price-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.detail-price-total h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Neutral/01 */
+
+  color: #000000;
+}

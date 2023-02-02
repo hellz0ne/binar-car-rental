@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-container {
+  width: 1168px;
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+
+.contact-container {
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 112px;
+}
+
+.contact-container h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  color: #000000;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90px;
+  height: 128px;
+}
+
+.service-container a {
+  text-decoration: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #000000;
+}
+
+.sosmed-container {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  width: 268px;
+}
+
+.sosmed-container h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #000000;
+}
+
+.sosmed-icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trademark {
+  width: 268px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.trademark h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #000000;
+}
+
+.trademark-logo {
+  width: 100px;
+  height: 34px;
+  background-color: blue;
+}
+
+@media screen and (max-device-width: 480px) {
+  .footer-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 16px;
+    margin: 0 auto;
+  }
+  .contact-container {
+    margin-bottom: 16px;
+  }
+  .service-container {
+    margin-bottom: 16px;
+  }
+
+  .sosmed-icon {
+    justify-content: space-between;
+  }
+
+  .trademark {
+    margin-top: 16px;
+  }
+}
