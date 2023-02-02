@@ -6,7 +6,7 @@ import profPic1 from "./../../asset/profPic1.png";
 import profPic2 from "./../../asset/profPic2.png";
 import iconStars from "./../../asset/stars.png";
 
-const strList = ["Sewa Mobil Dengan Supir di Bali 12 Jam", "Sewa Mobil Lepas Kunci di Bali 24 Jam", "Sewa Mobil Jangka Panjang Bulanan", "Gratis Antar - Jemput Mobil di Bandara", "Layanan Airport Transfer / Drop In Out"];
+const strList = ["Sewa Mobil Dengan Supir di Bekasi 12 Jam", "Sewa Mobil Lepas Kunci di Bekasi 24 Jam", "Sewa Mobil Jangka Panjang Bulanan", "Gratis Antar - Jemput Mobil di Bandara", "Layanan Airport Transfer / Drop In Out"];
 
 const whyUs = [
   {
