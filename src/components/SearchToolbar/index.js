@@ -1,7 +1,9 @@
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const SearchToolbar = (props) => {
   const { handleChangeName, handleSearch, handleChangeCategory, handleCategory, handleChangePrice, handlePrice, combineHandle, handleChangeStatus } = props;
+
   return (
     <div className="tool-container">
       <div className="search-tool">
@@ -10,8 +12,8 @@ const SearchToolbar = (props) => {
       </div>
       <div className="capacity-tool">
         <p>Kategori</p>
-        <select disabled name="kapasitas" id="kapasitas" placeholder="Masukan Kapasitas Mobil" onChange={(e) => handleChangeCategory(e)}>
-          <option value="" disabled selected style={{ fontColor: "#8A8A8A" }}>
+        <select name="kapasitas" id="kapasitas" placeholder="Masukan Kapasitas Mobil" onChange={(e) => handleChangeCategory(e)}>
+          <option value="" selected style={{ fontColor: "#8A8A8A" }}>
             Masukan Kapasitas Mobil
           </option>
           <option value="2 - 4 orang">2-4 Orang</option>
@@ -21,8 +23,8 @@ const SearchToolbar = (props) => {
       </div>
       <div className="price-tool">
         <p>Harga</p>
-        <select disabled name="harga" id="harga" placeholder="Masukan Harga Sewa per Hari" onChange={(e) => handleChangePrice(e)}>
-          <option value="" disabled selected style={{ fontColor: "#8A8A8A" }}>
+        <select name="harga" id="harga" placeholder="Masukan Harga Sewa per Hari" onChange={(e) => handleChangePrice(e)}>
+          <option value="" selected style={{ fontColor: "#8A8A8A" }}>
             Masukan Harga Sewa per Hari
           </option>
           <option value="350000">Rp. 350.000 </option>
@@ -34,17 +36,17 @@ const SearchToolbar = (props) => {
       </div>
       <div className="status-tool">
         <p>Status</p>
-        <select disabled name="status" id="status" placeholder="Disewa" onChange={(e) => handleChangeStatus(e)}>
-          <option value="" disabled selected style={{ fontColor: "#8A8A8A" }}>
+        <select name="status" id="status" placeholder="Disewa" onChange={(e) => handleChangeStatus(e)}>
+          <option value="" selected style={{ fontColor: "#8A8A8A" }}>
             Masukan Status
           </option>
           <option value="true">Disewa</option>
           <option value="false">Tersedia</option>
         </select>
       </div>
-      <a className="cari-button" onClick={combineHandle}>
-        Cari
-      </a>
+      <Link to={"/semuamobil"}>
+            <button className="cari-button">Cari</button>
+          </Link>
     </div>
   );
 };

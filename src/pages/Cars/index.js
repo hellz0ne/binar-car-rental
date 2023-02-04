@@ -73,7 +73,7 @@ const Cars = () => {
 
   useEffect(() => {
     axios
-      .get("https://bootcamp-rent-cars.herokuapp.com/customer/v2/car") //get API
+      .get("https://bootcamp-rent-car.herokuapp.com/admin/car") //get API
       .then((res) => setData(res.data)) //jika berhasil
       .catch((err) => console.log(err)); //jika gagal
   }, []);

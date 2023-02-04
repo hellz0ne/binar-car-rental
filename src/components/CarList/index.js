@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./carlist.css";
 
 const CarList = ({ data }) => {
+  console.log(data)
   return (
     <div className="car-container">
       {data.length > 0 &&

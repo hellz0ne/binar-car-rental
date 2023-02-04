@@ -13,7 +13,7 @@ const WhyUs = (props) => {
           <div className="card-content-whyus" key={key}>
             <img src={item.icon}></img>
             <h4>{item.title}</h4>
-            <h5>{item.desc}</h5>
+            <p>{item.desc}</p>
           </div>
         ))}
       </div>

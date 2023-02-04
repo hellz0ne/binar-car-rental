@@ -14,11 +14,18 @@ const DetailCar = () => {
 
   const param = useParams();
   const id = param.id;
-  console.log(car);
+  console.log(id);
   useEffect(() => {
     axios
-      .get(`https://bootcamp-rent-car.herokuapp.com/admin/car/${id}`)
-      .then((res) => setCar(res.data)) //jika berhasil
+    .get(`https://bootcamp-rent-cars.herokuapp.com/admin/car/${id}`, { 
+      headers: {
+          access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY3NTQ3OTMwOX0.w3e2uTprpLrsHmmKkYvloJA_gtCbnyVd0EmOsCa-YAA"
+      } 
+    })
+    .then((res) => {
+      console.log("hasil ", res);
+       setCar(res.data)
+      }) //jika berhasil //jika berhasil
       .catch((err) => console.log(err)); //jika gagal
   }, []);
 
