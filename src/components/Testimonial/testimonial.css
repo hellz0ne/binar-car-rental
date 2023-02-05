@@ -141,11 +141,10 @@
   }
 
   .card-review {
-    width: 328px !important;
+    /* width: 328px !important; */
     height: 392px;
     display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -162,6 +161,10 @@
 
   .desc-content p {
     width: 100%;
+  }
+
+  .star-icon {
+    justify-content: center;
   }
 
   .slick-track {

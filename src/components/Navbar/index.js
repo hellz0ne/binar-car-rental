@@ -1,8 +1,6 @@
 import "./navbar.css";
 import logo from "./../../asset/logo.png";
-
 import Drawer from "@mui/material/Drawer";
-
 import React, { Fragment } from "react";
 import menuIcon from "./../../asset/sidebar-icon.png";
 
@@ -39,7 +37,8 @@ const Navbar = () => {
       </div>
       <Drawer anchor={"right"} open={openSideBar} onClose={onClose}>
         <div>
-          <h3 onClick={onClose}>BCR X</h3>
+          <h3>BCR</h3>
+          <h3 onClick={onClose}>X</h3>
         </div>
         <div>
           <p>

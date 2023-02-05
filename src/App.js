@@ -3,7 +3,7 @@ import "./App.css";
 import Cars from "./pages/Cars";
 import DetailCar from "./pages/DetailCar";
 import Home from "./pages/Home";
-import SearchBar from "./pages/SearchBar"
+import SearchBar from "./pages/SearchBar";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 

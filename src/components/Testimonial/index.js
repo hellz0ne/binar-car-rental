@@ -23,25 +23,19 @@ const Testimonial = (props) => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
+          speed: 1000,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
+          speed: 500,
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          variableWidth: false,
+          centerMode: false,
         },
       },
     ],
