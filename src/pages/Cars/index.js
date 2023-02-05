@@ -5,7 +5,7 @@ import CarList from "../../components/CarList";
 import SearchToolbar from "../../components/SearchToolbar";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import BannerCar from "../../components/BannerCar";
+import BannerDetail from "../../components/BannerDetail";
 
 const Cars = () => {
   const [data, setData] = useState([]);
@@ -73,8 +73,15 @@ const Cars = () => {
 
   useEffect(() => {
     axios
-      .get("https://bootcamp-rent-car.herokuapp.com/admin/car") //get API
-      .then((res) => setData(res.data)) //jika berhasil
+    .get("https://bootcamp-rent-cars.herokuapp.com/admin/v2/car", { 
+      headers: {
+          access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY3NTQ3OTMwOX0.w3e2uTprpLrsHmmKkYvloJA_gtCbnyVd0EmOsCa-YAA"
+      } 
+    }) //get API
+    .then((res) => {
+      console.log("hasil ", res);
+       setData(res.data.cars)
+      }) //jika berhasil //jika berhasil
       .catch((err) => console.log(err)); //jika gagal
   }, []);
 
@@ -95,7 +102,7 @@ const Cars = () => {
   return (
     <div>
       <Navbar />
-      <BannerCar />
+      <BannerDetail />
 
       <SearchToolbar {...props} />
       {!!notFound && <h1>Mobil Tidak Ditemukan</h1>}

@@ -73,4 +73,45 @@
   .nav-button {
     display: block;
   }
+
+  .tombol-service {
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: Left;
+    vertical-align: Top;
+    text-decoration: none;
+  }
+
+  .tombol-why-us {
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: Left;
+    vertical-align: Top;
+    text-decoration: none;
+  }
+
+  .tombol-testi {
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: Left;
+    vertical-align: Top;
+    text-decoration: none;
+  }
+
+  .tombol-question {
+    color:black;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: left;
+    vertical-align: top;
+    text-decoration: none;
+  }
+  
 }

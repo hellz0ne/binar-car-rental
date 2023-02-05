@@ -39,21 +39,20 @@ const Navbar = () => {
       </div>
       <Drawer anchor={"right"} open={openSideBar} onClose={onClose}>
         <div>
-          <h3>BCR</h3>
-          <h3 onClick={onClose}>X</h3>
+          <h3 onClick={onClose}>BCR X</h3>
         </div>
         <div>
           <p>
-            <a href="#ourservices">Our Services</a>
+            <a className="tombol-service" href="#ourservices">Our Services</a>
           </p>
           <p>
-            <a href="#whyus">Why us</a>
+            <a className="tombol-why-us" href="#whyus">Why us</a>
           </p>
           <p>
-            <a href="#testimonial">Testimonial</a>
+            <a className="tombol-testi" href="#testimonial">Testimonial</a>
           </p>
           <p>
-            <a href="#faq">FAQ</a>
+            <a className="tombol-question" href="#faq">FAQ</a>
           </p>
         </div>
       </Drawer>

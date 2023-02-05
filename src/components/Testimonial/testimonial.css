@@ -128,7 +128,6 @@
 @media screen and (max-device-width: 480px) {
   .testi-container {
     width: 100%;
-    /* margin: 100px auto; */
     justify-content: center;
   }
 
@@ -145,8 +144,8 @@
     width: 328px !important;
     height: 392px;
     display: flex !important;
-    /* justify-content: space-evenly; */
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -168,4 +167,5 @@
   .slick-track {
     display: flex;
   }
+  
 }

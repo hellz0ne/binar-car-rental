@@ -44,8 +44,8 @@ const SearchToolbar = (props) => {
           <option value="false">Tersedia</option>
         </select>
       </div>
-      <Link to={"/semuamobil"}>
-            <button className="cari-button">Cari</button>
+      <Link to={"/listmobil"}>
+            <button className="banner-button" onClick={combineHandle}>Cari</button>
           </Link>
     </div>
   );

@@ -14,7 +14,7 @@ const Testimonial = (props) => {
     className: "slider variable-width",
     centerMode: true,
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -40,7 +40,7 @@ const Testimonial = (props) => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },

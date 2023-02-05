@@ -71,7 +71,7 @@
   color: #000000;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .services-container {
     display: flex;
     flex-direction: column;
